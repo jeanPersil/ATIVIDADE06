@@ -1,5 +1,5 @@
 # ATIVIDADE06
- 
+
 Descrição do Projeto
 Este projeto consiste em um sistema de monitoramento utilizando um microcontrolador ESP32 para detectar o estado de um botão físico. Quando o botão for pressionado, a informação será enviada em tempo real para um banco de dados Firebase Realtime Database, alterando seu status.
 
@@ -11,8 +11,4 @@ O site exibirá essa informação dinamicamente, refletindo o estado atual do bo
 
 Dessa forma, qualquer usuário conectado à internet poderá visualizar a atualização instantânea do status do botão diretamente na interface web. 🚀
 
-
-
-
-
-
+<img src="imagemSite.png" alt="FotoDosite">
