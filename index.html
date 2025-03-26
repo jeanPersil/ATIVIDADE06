@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 06</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="agrupar">
+      <header class="cabecalho">
+        <h1>Atividade 06</h1>
+      </header>
+      <main class="conteudoPrincipal">
+        <section class="objetivo">
+          <h2>Objetivo</h2>
+          <p>
+            Desenvolver um sistema de monitoramento que utilize um
+            microcontrolador ESP32 para detectar o estado de um botão. O projeto
+            deve enviar o status do botão para um banco de dados em tempo real
+            (Firebase Realtime Database) e permitir a visualização desse status
+            a partir de qualquer dispositivo conectado à internet.
+          </p>
+        </section>
+
+        <section class="func">
+          <h2>Funcionalidades</h2>
+          <p>
+            O sistema deve se conectar a uma rede Wi-Fi para permitir a
+            comunicação com o Firebase. O botão deve ser configurado como uma
+            entrada digital que, quando pressionado, altera seu estado. O estado
+            do botão deve ser enviado para o Firebase como um valor binário (0
+            ou 1), onde:
+          </p>
+
+          <div class="status">
+            <p>0 = representa "não alarmante"</p>
+            <p>1 = representa "pressionado"</p>
+            <h3 statusBotao></h3>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Desenvolvido by Jean</p>
+      </footer>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
